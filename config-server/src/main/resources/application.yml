@@ -6,4 +6,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/telConnect/config-repo
+          uri: https://github.com/haarish04/telConnect
+          search-paths: config-repo
