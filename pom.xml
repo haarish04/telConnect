@@ -14,16 +14,16 @@
   <packaging>pom</packaging>
   <modules>
 	<!--Service modules-->
-    <module>src/services/service</module>
-    <module>src/services/service</module>
+    <module>services/service</module>
+    <module>services/service</module>
 
 	<!--Infra Service modules-->
-    <module>src/eureka-server</module>
-    <module>src/api-gateway</module>
-    <module>src/config-server</module>
+    <module>eureka-server</module>
+    <module>api-gateway</module>
+    <module>config-server</module>
 
 	<!--Library Modules -->
-    <module>src/libraries/lib</module>
+    <module>libraries/lib</module>
   </modules>
 
   <properties>
