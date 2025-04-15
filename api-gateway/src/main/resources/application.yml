@@ -2,12 +2,12 @@ spring:
   application:
     name: api-gateway
 
+  profiles:
+    active: dev
+  label: main
 
-cloud:
   config:
-    uri: http://localhost:8888
-    label: main
-    name: api-gateway-dev
+    import: configserver:http://localhost:8888
 
 eureka:
   client:
