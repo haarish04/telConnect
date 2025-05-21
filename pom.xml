@@ -18,9 +18,9 @@
     <module>services/service</module>
 
 	<!--Infra Service modules-->
-    <module>eureka-server</module>
-    <module>api-gateway</module>
-    <module>config-server</module>
+    <module>infrastructure/eureka-server</module>
+    <module>infrastructure/api-gateway</module>
+    <module>infrastructure/config-server</module>
 
 	<!--Library Modules -->
     <module>libraries/lib</module>
