@@ -21,3 +21,8 @@ spring:
             - Path=/auth-service/auth/**
           filters:
             - StripPrefix=1
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty: DEBUG
