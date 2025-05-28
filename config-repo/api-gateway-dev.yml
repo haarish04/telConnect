@@ -18,7 +18,7 @@ spring:
         - id: auth-service
           uri: http://localhost:8082
           predicates:
-            - Path=/auth-service/auth/**
+            - Path=/auth-service/**
           filters:
             - StripPrefix=1
 
