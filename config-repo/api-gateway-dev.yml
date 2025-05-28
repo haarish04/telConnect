@@ -19,6 +19,7 @@ spring:
           uri: http://localhost:8082
           predicates:
             - Path=/**
+          filters: []
 
 logging:
   level:
